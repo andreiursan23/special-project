@@ -91,7 +91,7 @@ function App() {
         {showBigQuestion && (
           <>
             <Subtitle
-              subtitle="The big question 💍"
+              subtitle="Capitolul VII - Marea intrebare 💍"
               toggleFadeSubtitle={toggleFadeSubtitle}
               setToggleFadeSubtitle={setToggleFadeSubtitle}
             />
@@ -107,13 +107,15 @@ function App() {
             <h1 className="title final">
               Te iubesc! <span className="heart">💖</span>
             </h1>
-            <div className="video-container">
+            <div className="video-container" >
               <video
                 autoPlay
                 loop
                 muted
                 src="./ring-video.webm"
                 type="video/webm"
+                height={"656px"}
+                width={"504px"}
               >
                 Ring Video
               </video>

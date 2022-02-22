@@ -4,6 +4,7 @@ import { useEffect } from "react";
 function Subtitle({ subtitle, toggleFadeSubtitle, setToggleFadeSubtitle }) {
   useEffect(() => {
     toggleFadeSubtitle ? setToggleFadeSubtitle(false) : setToggleFadeSubtitle(true);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [subtitle]);
 
   return (

@@ -279,6 +279,7 @@ template {
   background-image: url("../public/bg-image.webp");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .title {
@@ -445,6 +446,9 @@ template {
 .btn-container .second-to-last-chapter-btn {
   position: static;
   margin: 3rem auto;
+  padding: 1.5rem;
+  font-size: 3rem;
+  width: 45rem;
 }
 
 .big-question-container {

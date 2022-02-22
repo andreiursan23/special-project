@@ -82,7 +82,7 @@ export const useStory = () => {
       subtitle: "Capitolul III - Our firsts",
       image: "/2012/2012-2.webp",
       imgText:
-        "Prima poza cu ai tai. 💖 In povestile cu pirati comorile sunt ingropate la mare adancime, dar aici am gasit o comoara abia ingropata. 😂",
+        "Prima poza cu ai tai. 💖 In povestile cu pirati comorile sunt ingropate la mare adancime, dar aici am gasit o comoara aproape la suprafata. 😂",
     },
     {
       subtitle: "Capitolul III - Our firsts",

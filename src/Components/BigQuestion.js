@@ -19,7 +19,7 @@ function BigQuestion({ setShowBigQuestion, setShowRing }) {
         <button className="big-question-btn" onClick={showRing}>
           DA <span className="arrow">💖</span>
         </button>
-        <button className="big-question-btn" disabled="true">
+        <button className="big-question-btn" disabled={true}>
           NU <span className="arrow"></span>
         </button>
       </div>
