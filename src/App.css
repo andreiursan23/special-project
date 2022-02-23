@@ -560,6 +560,11 @@ template {
     margin: 1rem auto;
   }
 
+  .photo-container figure img {
+    display: block;
+    margin: 0 auto;
+  }
+
   .btn-container {
     display: flex;
     justify-content: center;
