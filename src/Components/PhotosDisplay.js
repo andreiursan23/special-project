@@ -42,9 +42,9 @@ function PhotosDisplay({
         </button>
       </div>
 
-      <div>
+      <div className="photo-container">
         <figure>
-          <img src={image} height={600} alt="Story part" />
+          <img src={image} alt="Story part" />
           <div className="img-text">
             <figcaption className={toggleFadeStory ? "fade-in" : ""}>
               {imgText}

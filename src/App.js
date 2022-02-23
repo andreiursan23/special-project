@@ -5,6 +5,7 @@ import Subtitle from "./Components/Subtitle";
 import PhotosDisplay from "./Components/PhotosDisplay";
 import LastChapterStory from "./Components/LastChapterStory";
 import BigQuestion from "./Components/BigQuestion";
+import RingVideo from "./Components/RingVideo";
 
 import { useStory } from "./Hooks/useStory.js";
 
@@ -103,24 +104,7 @@ function App() {
         )}
 
         {showRing && (
-          <>
-            <h1 className="title final fade-in">
-              Te iubesc! <span className="heart">💖</span>
-            </h1>
-            <div className="video-container fade-in" >
-              <video
-                autoPlay
-                loop
-                muted
-                src="./ring-video.webm"
-                type="video/webm"
-                height={"656px"}
-                width={"504px"}
-              >
-                Ring Video
-              </video>
-            </div>
-          </>
+          <RingVideo />
         )}
       </main>
     </div>
